@@ -3,7 +3,7 @@ version: '3.8'
 services:
   app:
     build: ./docker
-    container_name: comics_app
+    container_name: projectname_app
     depends_on:
       - phpmyadmin
       - mongo-express
