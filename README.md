@@ -21,8 +21,8 @@ The main box, `app`, supports a number of environment variables (not `ARG`) to c
 
 ### php
 
-I do not use the official docker php image because it is not what I use in production. You could say the same for MongoDB a
-nd MySQL but they actually are built from the same packages as I do in production. The php image from docker is built from a 
+I do not use the official docker php image because it is not what I use in production. You could say the same for MongoDB and 
+MySQL but they actually are built from the same packages as I do in production. The php image from docker is built from a 
 completely different set of sources and configuration to what I actually use in production.
 
 ### nginx
